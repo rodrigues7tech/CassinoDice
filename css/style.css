@@ -1,0 +1,25 @@
+body{
+    background-color: #408080;
+}
+
+.container{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.title-game{
+    background-color: burlywood;
+    border-radius: 25px;
+}
+
+.game{
+    border: 1px solid black;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+#result{
+    border-radius: 25px;
+    border: 1px solid black;
+}

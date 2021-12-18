@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cassino Dados</title>
+</head>
+<body>
+    <div class="title-game container">
+        <h1>Cassino Dice:</h1>
+    </div>
+
+    <div class="game container">
+        <p>Clique aqui para sortear os dados:</p>
+        <button onclick="sorteio()">Sortear</button>
+        <br><br>
+
+        <h3>Computador:</h3>
+        <div id="dados-cpu">
+            <img src="assets/img/dadoInterrog.png">
+            <img src="assets/img/dadoInterrog.png">
+            <img src="assets/img/dadoInterrog.png">
+        </div>
+
+        <h3>Jogador:</h3>
+        <div id="dados-user">
+            <img src="assets/img/dadoInterrog.png" >
+            <img src="assets/img/dadoInterrog.png" >
+            <img src="assets/img/dadoInterrog.png" >
+        </div>
+        <br><br>
+
+        <p id="result"> 
+            Aqui vai aparecer a mensagem informando quem venceu.
+        </p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
